@@ -31,7 +31,6 @@ import { LaborData } from '@/data/Dashboard';
                                 <td class="text-no-wrap text-h6">39.07</td>
                                 <td class="text-no-wrap text-h6">$279.04</td>
                                 <td class="text-no-wrap text-h6"></td>
-                                <td class="text-no-wrap text-h6"></td>
                             </tr>
                         </tbody>
                     </template>
