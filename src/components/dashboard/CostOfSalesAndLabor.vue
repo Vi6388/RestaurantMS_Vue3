@@ -3,8 +3,8 @@
 <template>
     <v-card elevation="10">
         <v-card-item class="pb-4">
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
-                <v-card-title class="text-h5 mb-0 pt-1">Cost of sales and labor</v-card-title>
+            <div class="flex justify-between mb-3 align-center">
+                <v-card-title class="text-h5 mb-0">Cost of sales and labor</v-card-title>
                 <v-btn variant="text" color="primary">View All</v-btn>
             </div>
             <div class="mt-4">
@@ -25,18 +25,18 @@
                         </thead>
                         <tbody>
                             <tr class="month-item">
-                                <td class="text-no-wrap text-body-1">35%</td>
-                                <td class="text-no-wrap text-body-1">39%</td>
-                                <td class="text-no-wrap text-body-1">10%</td>
-                                <td class="text-no-wrap text-body-1">12%</td>
-                                <td class="text-no-wrap text-body-1">22%</td>
+                                <td class="text-nowrap text-body-1">35%</td>
+                                <td class="text-nowrap text-body-1">39%</td>
+                                <td class="text-nowrap text-body-1">10%</td>
+                                <td class="text-nowrap text-body-1">12%</td>
+                                <td class="text-nowrap text-body-1">22%</td>
                             </tr>
                             <tr class="month-item">
-                                <td class="text-no-wrap text-body-1 text-textSecondary">$35,875.00</td>
-                                <td class="text-no-wrap text-body-1 text-textSecondary">$45,789.47</td>
-                                <td class="text-no-wrap text-body-1 text-textSecondary">$28,000.00</td>
-                                <td class="text-no-wrap text-body-1 text-textSecondary">$35,789.00</td>
-                                <td class="text-no-wrap text-body-1 text-textSecondary">$63,378.12</td>
+                                <td class="text-nowrap text-body-1 text-textSecondary">$35,875.00</td>
+                                <td class="text-nowrap text-body-1 text-textSecondary">$45,789.47</td>
+                                <td class="text-nowrap text-body-1 text-textSecondary">$28,000.00</td>
+                                <td class="text-nowrap text-body-1 text-textSecondary">$35,789.00</td>
+                                <td class="text-nowrap text-body-1 text-textSecondary">$63,378.12</td>
                             </tr>
                         </tbody>
                     </template>

@@ -6,8 +6,8 @@ const items = ref(['Store 1', 'Store 2', 'Store 3']);
 <template>
     <v-card elevation="10" rounded="md" class="card-hover">
         <v-card-item>
-            <div class="d-flex justify-space-between mb-mb-0 flex-md-row flex-column ga-2">
-                <div class="d-flex md:justify-space-between ga-2">
+            <div class="flex justify-between mb-mb-0 flex-md-row flex-column gap-2">
+                <div class="flex md:justify-between gap-2">
                     <v-select v-model="select" :items="items" variant="outlined" density="compact" class="text-body-1"
                         hide-details></v-select>
                     <v-btn variant="outlined" color="primary">COMPARE BRANCHE</v-btn>

@@ -4,8 +4,8 @@ import { ProductsData } from '@/data/Dashboard';
 <template>
     <v-card elevation="10">
         <v-card-item class="pb-4">
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
-                <v-card-title class="text-h5 mb-0 pt-1">Products</v-card-title>
+            <div class="flex justify-between mb-3 align-center">
+                <v-card-title class="text-h5 mb-0">Products</v-card-title>
                 <v-btn variant="text" color="primary">View All</v-btn>
             </div>
             <div class="mt-4">
@@ -21,17 +21,17 @@ import { ProductsData } from '@/data/Dashboard';
                         <tbody>
                             <tr v-for="item in ProductsData" :key="item.id" class="month-item">
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.pescados }}
                                     </p>
                                 </td>
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.qty }}
                                     </p>
                                 </td>
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.amount }}
                                     </p>
                                 </td>
@@ -51,17 +51,17 @@ import { ProductsData } from '@/data/Dashboard';
                         <tbody>
                             <tr v-for="item in ProductsData" :key="item.id" class="month-item">
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.pescados }}
                                     </p>
                                 </td>
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.qty }}
                                     </p>
                                 </td>
                                 <td>
-                                    <p class="text-no-wrap text-body-1 text-textSecondary">
+                                    <p class="text-nowrap text-body-1 text-textSecondary">
                                         {{ item.amount }}
                                     </p>
                                 </td>

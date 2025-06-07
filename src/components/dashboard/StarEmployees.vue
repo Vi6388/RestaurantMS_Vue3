@@ -4,14 +4,14 @@ import { StarEmployeesData } from '@/data/Dashboard';
 <template>
     <v-card elevation="10">
         <v-card-item class="pb-4">
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
-                <v-card-title class="text-h5 mb-0 pt-1">Star Employees</v-card-title>
+            <div class="flex justify-between mb-3 align-center">
+                <v-card-title class="text-h5 mb-0">Star Employees</v-card-title>
             </div>
             <div>
                 <div v-for="item in StarEmployeesData" :key="item.id">
-                    <div class="d-flex align-center justify-space-between mt-4 mb-2">
-                        <h5 class="text-textPrimary text-subtitle-1 font-weight-medium">{{ item.name }}</h5>
-                        <div class="text-textPrimary text-subtitle-1 font-weight-medium">{{ item.value }}</div>
+                    <div class="flex align-center justify-between mt-4 mb-2">
+                        <h5 class="text-textPrimary text-subtitle-1 font-medium">{{ item.name }}</h5>
+                        <div class="text-textPrimary text-subtitle-1 font-medium">{{ item.value }}</div>
                     </div>
                     <v-progress-linear :model-value="item.percent" height="8" :color="item.color"
                         :bg-color="item.color" rounded></v-progress-linear>

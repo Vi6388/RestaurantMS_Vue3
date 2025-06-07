@@ -8,9 +8,9 @@ import { Icon } from '@iconify/vue';
             <v-row>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Guest Average</div>
-                            <div class="text-body-2 text-error d-flex align-center justify-center">
+                            <div class="text-body-2 text-error flex align-center justify-center">
                                 <Icon icon="mdi:arrow-down" height="20"></Icon>
                                 <div>10.3%</div>
                             </div>
@@ -20,9 +20,9 @@ import { Icon } from '@iconify/vue';
                 </v-col>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Guest</div>
-                            <div class="text-body-2 text-success d-flex align-center justify-center">
+                            <div class="text-body-2 text-success flex align-center justify-center">
                                 <Icon icon="mdi:arrow-up" height="20"></Icon>
                                 <div>5.6%</div>
                             </div>
@@ -32,9 +32,9 @@ import { Icon } from '@iconify/vue';
                 </v-col>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Check Average</div>
-                            <div class="text-body-2 text-error d-flex align-center justify-center">
+                            <div class="text-body-2 text-error flex align-center justify-center">
                                 <Icon icon="mdi:arrow-down" height="20"></Icon>
                                 <div>12.8%</div>
                             </div>
@@ -44,9 +44,9 @@ import { Icon } from '@iconify/vue';
                 </v-col>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Checks</div>
-                            <div class="text-body-2 text-success d-flex align-center justify-center">
+                            <div class="text-body-2 text-success flex align-center justify-center">
                                 <Icon icon="mdi:arrow-up" height="20"></Icon>
                                 <div>8.6%</div>
                             </div>
@@ -56,9 +56,9 @@ import { Icon } from '@iconify/vue';
                 </v-col>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Voids</div>
-                            <div class="text-body-2 text-error d-flex align-center justify-center">
+                            <div class="text-body-2 text-error flex align-center justify-center">
                                 <Icon icon="mdi:arrow-down" height="20"></Icon>
                                 <div>100.0%</div>
                             </div>
@@ -68,9 +68,9 @@ import { Icon } from '@iconify/vue';
                 </v-col>
                 <v-col cols="12" sm="6" md="3" lg="2">
                     <v-card elevation="10" class="px-4 py-3" variant="outlined">
-                        <div class="d-flex justify-space-between ga-3 align-center mb-2">
+                        <div class="flex justify-between gap-3 align-center mb-2">
                             <div class="text-body-2 text-textSecondary">Discounts</div>
-                            <div class="text-body-2 text-success d-flex align-center justify-center">
+                            <div class="text-body-2 text-success flex align-center justify-center">
                                 <Icon icon="mdi:arrow-up" height="20"></Icon>
                                 <div>0%</div>
                             </div>

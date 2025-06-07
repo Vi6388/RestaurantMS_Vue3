@@ -89,23 +89,23 @@ const Chart = {
 <template>
     <v-card elevation="10">
         <v-card-item>
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
-                <v-card-title class="text-h5">Sale comparison</v-card-title>
+            <div class="flex justify-between mb-3 align-center">
+                <v-card-title class="text-h5 mb-0">Sale comparison</v-card-title>
                 <div>
                     <v-btn variant="text" color="primary">View All</v-btn>
                 </div>
             </div>
             <div class="mx-n1 mt-4 pt-2">
-                <div class="d-flex justify-center ga-4">
-                    <div class="d-flex justify-center ga-3">
+                <div class="flex justify-center gap-4">
+                    <div class="flex justify-center gap-3">
                         <div class="bg-warning px-1 py-1">
-                            <div style="background-color: white; height: 10px; width: 40px;"></div>
+                            <div class="bg-white h-[10px] w-10"></div>
                         </div>
                         <div class="text-body-2">06/05/2025</div>
                     </div>
-                    <div class="d-flex justify-center ga-3">
+                    <div class="flex justify-center gap-3">
                         <div class="bg-success px-1 py-1">
-                            <div style="background-color: white; height: 10px; width: 40px;"></div>
+                            <div class="bg-white h-[10px] w-10"></div>
                         </div>
                         <div class="text-body-2">06/05/2025</div>
                     </div>

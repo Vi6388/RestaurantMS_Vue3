@@ -81,7 +81,7 @@ const Chart = {
 <template>
     <v-card elevation="10">
         <v-card-item>
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
+            <div class="flex justify-between mb-3 align-center">
                 <v-card-title class="text-h5">Inventory Rotation</v-card-title>
                 <div>
                     <v-btn variant="text" color="primary">View All</v-btn>

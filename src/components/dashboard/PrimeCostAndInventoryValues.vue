@@ -4,8 +4,8 @@ import { PrimeCostData } from '@/data/Dashboard';
 <template>
     <v-card elevation="10">
         <v-card-item class="pb-4">
-            <div class="d-md-flex justify-space-between mb-mb-0 mb-3">
-                <v-card-title class="text-h5 mb-0 pt-1">Prime Cost & Inventory Values</v-card-title>
+            <div class="flex justify-between mb-3 align-center">
+                <v-card-title class="text-h5 mb-0">Prime Cost & Inventory Values</v-card-title>
                 <v-btn variant="text" color="primary">View All</v-btn>
             </div>
             <div class="mt-4">
@@ -21,10 +21,10 @@ import { PrimeCostData } from '@/data/Dashboard';
                         </thead>
                         <tbody>
                             <tr class="month-item" v-for="item in PrimeCostData" :key="item.id">
-                                <td class="text-no-wrap text-body-1">{{ item.primeCost }}</td>
-                                <td class="text-no-wrap text-body-1">{{ item.name }}</td>
-                                <td class="text-no-wrap text-body-1">{{ item.inventoryValue }}</td>
-                                <td class="text-no-wrap text-body-1">{{ item.inventoryRotation }}</td>
+                                <td class="text-nowrap text-body-1">{{ item.primeCost }}</td>
+                                <td class="text-nowrap text-body-1">{{ item.name }}</td>
+                                <td class="text-nowrap text-body-1">{{ item.inventoryValue }}</td>
+                                <td class="text-nowrap text-body-1">{{ item.inventoryRotation }}</td>
                             </tr>
                         </tbody>
                     </template>
